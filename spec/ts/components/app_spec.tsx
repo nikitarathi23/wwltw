@@ -8,11 +8,11 @@ describe('App', () => {
 
   beforeEach(() => {
     fixture = shallow(
-      <App title='oh wow'></App>
+      <App title='WWLTW Email Generator'></App>
     );
   });
 
   it('should render the title', () => {
-    expect(fixture.text()).toEqual('oh wow');
+    expect(fixture.text()).toContain('WWLTW Email Generator');
   });
 });

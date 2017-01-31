@@ -5,7 +5,7 @@ import { App } from 'components/app';
 
 function run() {
   ReactDOM.render(
-    <App title='welcome to typescript.'/>,
+    <App title='WWLTW Email Generator'/>,
     document.getElementById('app')
   );
 }
